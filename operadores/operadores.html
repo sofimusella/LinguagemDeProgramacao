@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste If Else</title>
+	<script>
+		// igual ==
+		// idêntico ===
+		// diferente !=
+		// não idênticos !==
+		// menor que <
+		// maior que >
+		// menor ou igual que <=
+		// maior ou igual que >=
+		var nota = prompt('Digite a nota do aluno: ')
+		var media = 6
+		if(nota >= media){
+		   document.write('APROVADO') }
+		else{
+			document.write('EXAME FINAL') }
+
+		// casting		
+		var variavel1 = prompt('Digite um número: ')
+		var variavel2 = prompt('Digite outro número: ')
+		variavel1 = parseFloat(variavel1)
+		variavel2 = parseFloat(variavel2)
+		document.write(variavel1+variavel2)
+
+		var variavel3=10
+		var variavel4=15
+		document.write(variavel3.toString()+variavel4.toString())
+
+		// operador lógico "e" (&&)
+		// true && true = true
+		if (2==2 && 3 >= 1){
+			document.write('Verdadeiro') }
+		else {
+			document.write('Falso') }
+
+		// operador lógico "ou" (||)
+		// true || false
+		if (2==2||3>=6){
+			document.write('Verdadeiro') }
+		else {
+			document.write('Falso') }	
+
+		// operador lógico "negação" (!) - inverte o resultado
+		if (!(2==4)) {
+			document.write('Verdadeiro') }
+		else {
+			document.write('Falso') }
+
+		var nota = prompt('Digite a nota do aluno: ')
+		var faltas = prompt('Digite a quantidade de faltas: ')
+		var media = 6
+		var faltasmax = 15
+		if (nota >= media && faltas<=faltasmax) {
+			document.write('APROVADO') }
+		else {
+			document.write('EXAME FINAL') }
+	</script>
+</head>
+<body>
+
+</body>
+</html>
